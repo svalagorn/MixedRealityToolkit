@@ -21,3 +21,6 @@
 #define RAKPEER_USER_THREADED 1
 
 #define RakAssert(x) assert(x);
+
+#define _USE_RAK_MEMORY_OVERRIDE 1
+#define _DO_PRINTF

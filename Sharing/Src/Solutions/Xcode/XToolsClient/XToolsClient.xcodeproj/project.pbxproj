@@ -638,6 +638,27 @@
 		3E7E71301FA9D07C004B03C0 /* libzint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7E6DE81FA9C7F9004B03C0 /* libzint.a */; };
 		3E7E71311FA9D07C004B03C0 /* libapriltag.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7E6DE51FA9C7F8004B03C0 /* libapriltag.a */; };
 		3E7E71351FA9D43B004B03C0 /* ClientWrapperAPI_CSharp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E71341FA9D43A004B03C0 /* ClientWrapperAPI_CSharp.cpp */; };
+		3E7E713E1FAA61BE004B03C0 /* FloatArrayElementImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E71371FAA61BC004B03C0 /* FloatArrayElementImpl.cpp */; };
+		3E7E713F1FAA61BE004B03C0 /* ReplaceOperation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E71381FAA61BD004B03C0 /* ReplaceOperation.cpp */; };
+		3E7E71401FAA61BE004B03C0 /* ReplaceTransforms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E71391FAA61BD004B03C0 /* ReplaceTransforms.cpp */; };
+		3E7E71411FAA61BE004B03C0 /* StringArrayElementImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E713D1FAA61BE004B03C0 /* StringArrayElementImpl.cpp */; };
+		3E7E71421FAA61DC004B03C0 /* FloatArrayElementImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E71371FAA61BC004B03C0 /* FloatArrayElementImpl.cpp */; };
+		3E7E71431FAA61DC004B03C0 /* ReplaceOperation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E71381FAA61BD004B03C0 /* ReplaceOperation.cpp */; };
+		3E7E71441FAA61DC004B03C0 /* ReplaceTransforms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E71391FAA61BD004B03C0 /* ReplaceTransforms.cpp */; };
+		3E7E71451FAA61DC004B03C0 /* StringArrayElementImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E713D1FAA61BE004B03C0 /* StringArrayElementImpl.cpp */; };
+		3E7E71461FAA61EF004B03C0 /* FloatArrayElementImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7E713B1FAA61BE004B03C0 /* FloatArrayElementImpl.h */; };
+		3E7E71471FAA61EF004B03C0 /* ReplaceOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7E713C1FAA61BE004B03C0 /* ReplaceOperation.h */; };
+		3E7E71481FAA61EF004B03C0 /* ReplaceTransforms.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7E713A1FAA61BD004B03C0 /* ReplaceTransforms.h */; };
+		3E7E71491FAA61EF004B03C0 /* StringArrayElementImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7E71361FAA61BC004B03C0 /* StringArrayElementImpl.h */; };
+		3E7E714F1FAA6211004B03C0 /* AnchorDownloadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7E714B1FAA6206004B03C0 /* AnchorDownloadRequest.h */; };
+		3E7E71501FAA6211004B03C0 /* FloatArrayElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7E714E1FAA6206004B03C0 /* FloatArrayElement.h */; };
+		3E7E71511FAA6211004B03C0 /* FloatArrayListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7E714A1FAA6205004B03C0 /* FloatArrayListener.h */; };
+		3E7E71521FAA6211004B03C0 /* StringArrayElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7E714C1FAA6206004B03C0 /* StringArrayElement.h */; };
+		3E7E71531FAA6211004B03C0 /* StringArrayListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7E714D1FAA6206004B03C0 /* StringArrayListener.h */; };
+		3E7E71551FAA69E6004B03C0 /* RakNetTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F434CD51A3A6F9A00B7615D /* RakNetTypes.h */; };
+		3E7E71561FAA69E6004B03C0 /* RakPeer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F434CD81A3A6F9A00B7615D /* RakPeer.h */; };
+		3E7E71571FAA69F9004B03C0 /* RakAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F434CB61A3A6F9A00B7615D /* RakAssert.h */; };
+		3E7E71581FAA6A14004B03C0 /* RakNetDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F434CBE1A3A6F9A00B7615D /* RakNetDefines.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -699,6 +720,19 @@
 		3E7E712B1FA9D068004B03C0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		3E7E71331FA9D43A004B03C0 /* ClientWrapperAPI_CSharp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientWrapperAPI_CSharp.h; path = ../../../Source/Client/ClientWrapperAPI_CSharp.h; sourceTree = "<group>"; };
 		3E7E71341FA9D43A004B03C0 /* ClientWrapperAPI_CSharp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientWrapperAPI_CSharp.cpp; path = ../../../Source/Client/ClientWrapperAPI_CSharp.cpp; sourceTree = "<group>"; };
+		3E7E71361FAA61BC004B03C0 /* StringArrayElementImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringArrayElementImpl.h; sourceTree = "<group>"; };
+		3E7E71371FAA61BC004B03C0 /* FloatArrayElementImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FloatArrayElementImpl.cpp; sourceTree = "<group>"; };
+		3E7E71381FAA61BD004B03C0 /* ReplaceOperation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReplaceOperation.cpp; sourceTree = "<group>"; };
+		3E7E71391FAA61BD004B03C0 /* ReplaceTransforms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReplaceTransforms.cpp; sourceTree = "<group>"; };
+		3E7E713A1FAA61BD004B03C0 /* ReplaceTransforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceTransforms.h; sourceTree = "<group>"; };
+		3E7E713B1FAA61BE004B03C0 /* FloatArrayElementImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatArrayElementImpl.h; sourceTree = "<group>"; };
+		3E7E713C1FAA61BE004B03C0 /* ReplaceOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceOperation.h; sourceTree = "<group>"; };
+		3E7E713D1FAA61BE004B03C0 /* StringArrayElementImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringArrayElementImpl.cpp; sourceTree = "<group>"; };
+		3E7E714A1FAA6205004B03C0 /* FloatArrayListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatArrayListener.h; sourceTree = "<group>"; };
+		3E7E714B1FAA6206004B03C0 /* AnchorDownloadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchorDownloadRequest.h; sourceTree = "<group>"; };
+		3E7E714C1FAA6206004B03C0 /* StringArrayElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringArrayElement.h; sourceTree = "<group>"; };
+		3E7E714D1FAA6206004B03C0 /* StringArrayListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringArrayListener.h; sourceTree = "<group>"; };
+		3E7E714E1FAA6206004B03C0 /* FloatArrayElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatArrayElement.h; sourceTree = "<group>"; };
 		89B194361CAB42A200FC7F88 /* RefPtrProxyTS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefPtrProxyTS.h; sourceTree = "<group>"; };
 		89B194381CAB42AF00FC7F88 /* ListenerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListenerList.h; sourceTree = "<group>"; };
 		89B1943A1CAB42DC00FC7F88 /* BoolElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoolElement.h; sourceTree = "<group>"; };
@@ -1743,6 +1777,14 @@
 		9F69ED281A4121AC00939E3C /* Private */ = {
 			isa = PBXGroup;
 			children = (
+				3E7E71371FAA61BC004B03C0 /* FloatArrayElementImpl.cpp */,
+				3E7E713B1FAA61BE004B03C0 /* FloatArrayElementImpl.h */,
+				3E7E71381FAA61BD004B03C0 /* ReplaceOperation.cpp */,
+				3E7E713C1FAA61BE004B03C0 /* ReplaceOperation.h */,
+				3E7E71391FAA61BD004B03C0 /* ReplaceTransforms.cpp */,
+				3E7E713A1FAA61BD004B03C0 /* ReplaceTransforms.h */,
+				3E7E713D1FAA61BE004B03C0 /* StringArrayElementImpl.cpp */,
+				3E7E71361FAA61BC004B03C0 /* StringArrayElementImpl.h */,
 				9F69ED291A4121AC00939E3C /* AckOperation.cpp */,
 				89B1944A1CAB434F00FC7F88 /* AnchorDownloadRequestImpl.cpp */,
 				89B1944C1CAB434F00FC7F88 /* AnchorList.cpp */,
@@ -2017,6 +2059,11 @@
 		9F69EDDB1A4121AC00939E3C /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				3E7E714B1FAA6206004B03C0 /* AnchorDownloadRequest.h */,
+				3E7E714E1FAA6206004B03C0 /* FloatArrayElement.h */,
+				3E7E714A1FAA6205004B03C0 /* FloatArrayListener.h */,
+				3E7E714C1FAA6206004B03C0 /* StringArrayElement.h */,
+				3E7E714D1FAA6206004B03C0 /* StringArrayListener.h */,
 				89B1943A1CAB42DC00FC7F88 /* BoolElement.h */,
 				89B1943B1CAB42DC00FC7F88 /* DoubleElement.h */,
 				89B1943C1CAB42DC00FC7F88 /* IntArrayElement.h */,
@@ -2293,6 +2340,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7E714F1FAA6211004B03C0 /* AnchorDownloadRequest.h in Headers */,
+				3E7E71501FAA6211004B03C0 /* FloatArrayElement.h in Headers */,
+				3E7E71511FAA6211004B03C0 /* FloatArrayListener.h in Headers */,
+				3E7E71521FAA6211004B03C0 /* StringArrayElement.h in Headers */,
+				3E7E71531FAA6211004B03C0 /* StringArrayListener.h in Headers */,
+				3E7E71461FAA61EF004B03C0 /* FloatArrayElementImpl.h in Headers */,
+				3E7E71471FAA61EF004B03C0 /* ReplaceOperation.h in Headers */,
+				3E7E71481FAA61EF004B03C0 /* ReplaceTransforms.h in Headers */,
+				3E7E71491FAA61EF004B03C0 /* StringArrayElementImpl.h in Headers */,
 				3E7E70D11FA9CDFF004B03C0 /* ListenerList.h in Headers */,
 				3E7E70D21FA9CDFF004B03C0 /* RefPtrProxyTS.h in Headers */,
 				3E7E70D31FA9CDFF004B03C0 /* Log.h in Headers */,
@@ -2507,6 +2563,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3E7E71541FAA69CF004B03C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7E71581FAA6A14004B03C0 /* RakNetDefines.h in Headers */,
+				3E7E71571FAA69F9004B03C0 /* RakAssert.h in Headers */,
+				3E7E71551FAA69E6004B03C0 /* RakNetTypes.h in Headers */,
+				3E7E71561FAA69E6004B03C0 /* RakPeer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -2555,6 +2622,7 @@
 				3E7E70FB1FA9CEDF004B03C0 /* Sources */,
 				3E7E70FC1FA9CEDF004B03C0 /* Frameworks */,
 				3E7E70FD1FA9CEDF004B03C0 /* CopyFiles */,
+				3E7E71541FAA69CF004B03C0 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -2623,7 +2691,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd ../../../External/swigwin-3.0.2/\nif [ $CURRENT_ARCH == x86_64 ]\nthen\n_SWIG_ARCH=__LP64__\nelif [ $CURRENT_ARCH == i386 ]\nthen\n_SWIG_ARCH=_M_IX86\nfi\n\nSOURCE=../../Source\nDEST=../../GeneratedInterface/CSharpAPI/com/microsoft/holotoolkit/sharing\nmkdir -p $DEST\n./swig -Fmicrosoft -c++ -csharp -D$_SWIG_ARCH -D__APPLE__ -DTARGET_OS_IPHONE -ILib -ILib/csharp -namespace HoloToolkit.Sharing -outdir $DEST -o $SOURCE/Client/ClientWrapperAPI_CSharp.cpp -includeall $SOURCE/Client/WrapperAPI/Client_CSharp.i\n";
+			shellScript = "cd ../../../External/swigwin-3.0.2/\n\n_SWIG_ARCH=_M_ARM64\n\n\nSOURCE=../../Source\nDEST=../../GeneratedInterface/CSharpAPI/com/microsoft/holotoolkit/sharing\nmkdir -p $DEST\n./swig -Fmicrosoft -c++ -csharp -D$_SWIG_ARCH -D__APPLE__ -DTARGET_OS_IPHONE -ILib -ILib/csharp -namespace HoloToolkit.Sharing -outdir $DEST -o $SOURCE/Client/ClientWrapperAPI_CSharp.cpp -includeall $SOURCE/Client/WrapperAPI/Client_CSharp.i\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -2749,6 +2817,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7E71421FAA61DC004B03C0 /* FloatArrayElementImpl.cpp in Sources */,
+				3E7E71431FAA61DC004B03C0 /* ReplaceOperation.cpp in Sources */,
+				3E7E71441FAA61DC004B03C0 /* ReplaceTransforms.cpp in Sources */,
+				3E7E71451FAA61DC004B03C0 /* StringArrayElementImpl.cpp in Sources */,
 				3E7E70FA1FA9CE39004B03C0 /* stdafx.cpp in Sources */,
 				3E7E70231FA9CD3C004B03C0 /* json.cpp in Sources */,
 				3E7E70241FA9CD3C004B03C0 /* json_parsing.cpp in Sources */,
@@ -2880,18 +2952,21 @@
 				3E7E711E1FA9D03C004B03C0 /* DoubleElementImpl.cpp in Sources */,
 				3E7E711F1FA9D03C004B03C0 /* InsertOperation.cpp in Sources */,
 				3E7E71351FA9D43B004B03C0 /* ClientWrapperAPI_CSharp.cpp in Sources */,
+				3E7E713E1FAA61BE004B03C0 /* FloatArrayElementImpl.cpp in Sources */,
 				3E7E71201FA9D03C004B03C0 /* IntArrayAdapter.cpp in Sources */,
 				3E7E71211FA9D03C004B03C0 /* IntArrayElementImpl.cpp in Sources */,
 				3E7E71221FA9D03C004B03C0 /* LongElementImpl.cpp in Sources */,
 				3E7E71231FA9D03C004B03C0 /* NetworkThreadCommands.cpp in Sources */,
 				3E7E71241FA9D03C004B03C0 /* RemoveOperation.cpp in Sources */,
 				3E7E71251FA9D03C004B03C0 /* RoomImpl.cpp in Sources */,
+				3E7E71401FAA61BE004B03C0 /* ReplaceTransforms.cpp in Sources */,
 				3E7E71261FA9D03C004B03C0 /* RoomManagerImpl.cpp in Sources */,
 				3E7E71271FA9D03C004B03C0 /* SpeexProcessor.cpp in Sources */,
 				3E7E71281FA9D03C004B03C0 /* Syncable.cpp in Sources */,
 				3E7E71291FA9D03C004B03C0 /* SyncContext.cpp in Sources */,
 				3E7E712A1FA9D03C004B03C0 /* UpdateOperation.cpp in Sources */,
 				3E7E710B1FA9CF99004B03C0 /* SharingManagerImpl.cpp in Sources */,
+				3E7E71411FAA61BE004B03C0 /* StringArrayElementImpl.cpp in Sources */,
 				3E7E710C1FA9CF99004B03C0 /* DirectPairConnector.cpp in Sources */,
 				3E7E710D1FA9CF99004B03C0 /* DirectPairReceiver.cpp in Sources */,
 				3E7E710E1FA9CF99004B03C0 /* ImageData.cpp in Sources */,
@@ -2904,6 +2979,7 @@
 				3E7E71151FA9CF99004B03C0 /* VisualPairReceiverImpl.cpp in Sources */,
 				3E7E71161FA9CF99004B03C0 /* DynamicLibrary.cpp in Sources */,
 				3E7E71181FA9CF99004B03C0 /* Settings.cpp in Sources */,
+				3E7E713F1FAA61BE004B03C0 /* ReplaceOperation.cpp in Sources */,
 				3E7E71191FA9CF99004B03C0 /* SideCarContextImpl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2927,6 +3003,7 @@
 		3E7E6DF81FA9C872004B03C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -2964,6 +3041,7 @@
 		3E7E6DF91FA9C872004B03C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -2997,6 +3075,7 @@
 		3E7E6DFA1FA9C872004B03C0 /* MSTest */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -3030,6 +3109,7 @@
 		3E7E6FAC1FA9CAD6004B03C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -3060,7 +3140,7 @@
 					"../../../Source/Common/**",
 					"$(PROJECT_DIR)/RakNet/include/Source/**",
 					"$(PROJECT_DIR)/RakNet/include/DependentExtensions",
-					"../../../External/curl-7.56.1/include/**",
+					"../../../External/curl-7.56.1/include",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "-ObjC";
@@ -3074,6 +3154,7 @@
 		3E7E6FAD1FA9CAD6004B03C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -3099,7 +3180,7 @@
 					"../../../Source/Common/**",
 					"$(PROJECT_DIR)/RakNet/include/Source/**",
 					"$(PROJECT_DIR)/RakNet/include/DependentExtensions",
-					"../../../External/curl-7.56.1/include/**",
+					"../../../External/curl-7.56.1/include",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "-ObjC";
@@ -3114,6 +3195,7 @@
 		3E7E6FAE1FA9CAD6004B03C0 /* MSTest */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -3139,7 +3221,7 @@
 					"../../../Source/Common/**",
 					"$(PROJECT_DIR)/RakNet/include/Source/**",
 					"$(PROJECT_DIR)/RakNet/include/DependentExtensions",
-					"../../../External/curl-7.56.1/include/**",
+					"../../../External/curl-7.56.1/include",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "-ObjC";
@@ -3154,6 +3236,7 @@
 		3E7E71061FA9CEDF004B03C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -3181,13 +3264,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Libraries",
 					"../../../External/zxing-cpp/lib/$OS/$CONFIGURATION",
 					"../../../External/apriltag-2015-03-18",
 					"../../../External/zint-2.4.3/lib/$OS/$CONFIGURATION",
+					"$(PROJECT_DIR)/Libraries",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SharingClient;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3197,6 +3280,7 @@
 		3E7E71071FA9CEDF004B03C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -3219,13 +3303,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Libraries",
 					"../../../External/zxing-cpp/lib/$OS/$CONFIGURATION",
 					"../../../External/apriltag-2015-03-18",
 					"../../../External/zint-2.4.3/lib/$OS/$CONFIGURATION",
+					"$(PROJECT_DIR)/Libraries",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SharingClient;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3236,6 +3320,7 @@
 		3E7E71081FA9CEDF004B03C0 /* MSTest */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -3258,13 +3343,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Libraries",
 					"../../../External/zxing-cpp/lib/$OS/$CONFIGURATION",
 					"../../../External/apriltag-2015-03-18",
 					"../../../External/zint-2.4.3/lib/$OS/$CONFIGURATION",
+					"$(PROJECT_DIR)/Libraries",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SharingClient;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

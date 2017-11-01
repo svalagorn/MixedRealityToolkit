@@ -1118,10 +1118,10 @@ RAK_THREAD_DECLARATION(RakNet::UpdateTCPInterfaceLoop)
 			else if (sts->listenSocket!=0 && FD_ISSET(sts->listenSocket, &exceptionFD))
 			{
 #ifdef _DO_PRINTF
-				int err;
-				int errlen = sizeof(err);
-				getsockopt__(sts->listenSocket, SOL_SOCKET, SO_ERROR,(char*)&err, &errlen);
-				RAKNET_DEBUG_PRINTF("Socket error %s on listening socket\n", err);
+				//int err;
+				//int errlen = sizeof(err);
+			//getsockopt__(sts->listenSocket, SOL_SOCKET, SO_ERROR,(char*)&err, &errlen);
+				//RAKNET_DEBUG_PRINTF("Socket error %s on listening socket\n", err);
 #endif
 			}
 			
