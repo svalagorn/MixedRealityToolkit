@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9F434C171A3A6EF700B7615D"
+               BlueprintIdentifier = "3E7E6DF01FA9C872004B03C0"
                BuildableName = "libRakNet.a"
                BlueprintName = "RakNet"
                ReferencedContainer = "container:XToolsClient.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9F434C051A3A68FB00B7615D"
+               BlueprintIdentifier = "3E7E6FA41FA9CAD6004B03C0"
                BuildableName = "libXTools.Common.a"
                BlueprintName = "XTools.Common"
                ReferencedContainer = "container:XToolsClient.xcodeproj">
@@ -42,8 +42,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9F434BF31A3A68C200B7615D"
-               BuildableName = "libSharingClient.dylib"
+               BlueprintIdentifier = "3E7E70FE1FA9CEDF004B03C0"
+               BuildableName = "libXToolsClient.a"
                BlueprintName = "XToolsClient"
                ReferencedContainer = "container:XToolsClient.xcodeproj">
             </BuildableReference>
@@ -82,14 +82,15 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F434BF31A3A68C200B7615D"
-            BuildableName = "libSharingClient.dylib"
+            BlueprintIdentifier = "3E7E70FE1FA9CEDF004B03C0"
+            BuildableName = "libXToolsClient.a"
             BlueprintName = "XToolsClient"
             ReferencedContainer = "container:XToolsClient.xcodeproj">
          </BuildableReference>
@@ -101,6 +102,7 @@
       buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -110,8 +112,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F434BF31A3A68C200B7615D"
-            BuildableName = "libSharingClient.dylib"
+            BlueprintIdentifier = "3E7E70FE1FA9CEDF004B03C0"
+            BuildableName = "libXToolsClient.a"
             BlueprintName = "XToolsClient"
             ReferencedContainer = "container:XToolsClient.xcodeproj">
          </BuildableReference>
@@ -128,8 +130,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F434BF31A3A68C200B7615D"
-            BuildableName = "libSharingClient.dylib"
+            BlueprintIdentifier = "3E7E70FE1FA9CEDF004B03C0"
+            BuildableName = "libXToolsClient.a"
             BlueprintName = "XToolsClient"
             ReferencedContainer = "container:XToolsClient.xcodeproj">
          </BuildableReference>
