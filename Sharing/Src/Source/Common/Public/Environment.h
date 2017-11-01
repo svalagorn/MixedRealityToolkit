@@ -36,8 +36,12 @@
 #elif defined(_M_IX86) || defined(_M_ARM)
 # define XTOOLS_32BIT
 #else
-# error Unsupported bit depth
+# define XTOOLS_64BIT
 #endif
+/* hax
+ # error Unsupported bit depth
+ #endif
+ */
 
 // Define per-platform macros
 #if defined(SWIG)
