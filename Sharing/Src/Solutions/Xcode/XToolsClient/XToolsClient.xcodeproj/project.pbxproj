@@ -612,7 +612,6 @@
 		3E7E71141FA9CF99004B03C0 /* VisualPairConnectorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F13A54C1AC22CED000FD8F7 /* VisualPairConnectorImpl.cpp */; };
 		3E7E71151FA9CF99004B03C0 /* VisualPairReceiverImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F13A54F1AC22CED000FD8F7 /* VisualPairReceiverImpl.cpp */; };
 		3E7E71161FA9CF99004B03C0 /* DynamicLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B5DD81A5364190030D83D /* DynamicLibrary.cpp */; };
-		3E7E71171FA9CF99004B03C0 /* ClientWrapperAPI_Java.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F69EF831A5221C100939E3C /* ClientWrapperAPI_Java.cpp */; };
 		3E7E71181FA9CF99004B03C0 /* Settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD4FD851A3B95B700B570FC /* Settings.cpp */; };
 		3E7E71191FA9CF99004B03C0 /* SideCarContextImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD4FD871A3B95B700B570FC /* SideCarContextImpl.cpp */; };
 		3E7E711A1FA9D03C004B03C0 /* AnchorDownloadRequestImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B1944A1CAB434F00FC7F88 /* AnchorDownloadRequestImpl.cpp */; };
@@ -638,6 +637,7 @@
 		3E7E712F1FA9D07C004B03C0 /* libzxing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7E6DE71FA9C7F9004B03C0 /* libzxing.a */; };
 		3E7E71301FA9D07C004B03C0 /* libzint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7E6DE81FA9C7F9004B03C0 /* libzint.a */; };
 		3E7E71311FA9D07C004B03C0 /* libapriltag.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7E6DE51FA9C7F8004B03C0 /* libapriltag.a */; };
+		3E7E71351FA9D43B004B03C0 /* ClientWrapperAPI_CSharp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E71341FA9D43A004B03C0 /* ClientWrapperAPI_CSharp.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -697,6 +697,8 @@
 		3E7E6FA51FA9CAD6004B03C0 /* libXTools.Common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXTools.Common.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7E70FF1FA9CEDF004B03C0 /* libXToolsClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXToolsClient.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7E712B1FA9D068004B03C0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		3E7E71331FA9D43A004B03C0 /* ClientWrapperAPI_CSharp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientWrapperAPI_CSharp.h; path = ../../../Source/Client/ClientWrapperAPI_CSharp.h; sourceTree = "<group>"; };
+		3E7E71341FA9D43A004B03C0 /* ClientWrapperAPI_CSharp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientWrapperAPI_CSharp.cpp; path = ../../../Source/Client/ClientWrapperAPI_CSharp.cpp; sourceTree = "<group>"; };
 		89B194361CAB42A200FC7F88 /* RefPtrProxyTS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefPtrProxyTS.h; sourceTree = "<group>"; };
 		89B194381CAB42AF00FC7F88 /* ListenerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListenerList.h; sourceTree = "<group>"; };
 		89B1943A1CAB42DC00FC7F88 /* BoolElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoolElement.h; sourceTree = "<group>"; };
@@ -1300,8 +1302,6 @@
 		9F69EE251A4121AC00939E3C /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
 		9F69EE261A4121AC00939E3C /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
 		9F69EE551A4121AC00939E3C /* WrapperAPIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrapperAPIs.h; sourceTree = "<group>"; };
-		9F69EF831A5221C100939E3C /* ClientWrapperAPI_Java.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientWrapperAPI_Java.cpp; path = ../../../Source/Client/ClientWrapperAPI_Java.cpp; sourceTree = "<group>"; };
-		9F69EF841A5221C100939E3C /* ClientWrapperAPI_Java.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientWrapperAPI_Java.h; path = ../../../Source/Client/ClientWrapperAPI_Java.h; sourceTree = "<group>"; };
 		9F7B5DD81A5364190030D83D /* DynamicLibrary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DynamicLibrary.cpp; path = ../../../Source/Client/DynamicLibrary.cpp; sourceTree = "<group>"; };
 		9F7B5DD91A5364190030D83D /* DynamicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DynamicLibrary.h; path = ../../../Source/Client/DynamicLibrary.h; sourceTree = "<group>"; };
 		9F8BC4FF1AE7F30F004343DA /* DiscoveredSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DiscoveredSystem.cpp; sourceTree = "<group>"; };
@@ -1680,6 +1680,8 @@
 		9F434C121A3A6EB100B7615D /* XToolsClient */ = {
 			isa = PBXGroup;
 			children = (
+				3E7E71341FA9D43A004B03C0 /* ClientWrapperAPI_CSharp.cpp */,
+				3E7E71331FA9D43A004B03C0 /* ClientWrapperAPI_CSharp.h */,
 				89B1949E1CAB43DC00FC7F88 /* PairingResult.h */,
 				89B1949F1CAB43DC00FC7F88 /* SharingManager.h */,
 				89B194A01CAB43DC00FC7F88 /* SharingManagerImpl.cpp */,
@@ -1713,8 +1715,6 @@
 				9F13A5511AC22CED000FD8F7 /* ZXingIncludes.h */,
 				9F7B5DD81A5364190030D83D /* DynamicLibrary.cpp */,
 				9F7B5DD91A5364190030D83D /* DynamicLibrary.h */,
-				9F69EF831A5221C100939E3C /* ClientWrapperAPI_Java.cpp */,
-				9F69EF841A5221C100939E3C /* ClientWrapperAPI_Java.h */,
 				9FD4FD841A3B95B700B570FC /* ClientWrapperAPI.h */,
 				9FD4FD851A3B95B700B570FC /* Settings.cpp */,
 				9FD4FD861A3B95B700B570FC /* Settings.h */,
@@ -2623,7 +2623,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd ../../../External/swigwin-3.0.2/\nif [ $CURRENT_ARCH == x86_64 ]\nthen\n_SWIG_ARCH=_M_ARM64\nelif [ $CURRENT_ARCH == i386 ]\nthen\n_SWIG_ARCH=_M_ARM64\nfi\n\nSOURCE=../../Source\nDEST=../../GeneratedInterface/CSharpAPI/com/microsoft/holotoolkit/sharing\nmkdir -p $DEST\n./swig -Fmicrosoft -c++ -csharp -D$_SWIG_ARCH -D__APPLE__ -DTARGET_OS_IPHONE -ILib -ILib/csharp -namespace HoloToolkit.Sharing -outdir $DEST -o $SOURCE/Client/ClientWrapperAPI_CSharp.cpp -includeall $SOURCE/Client/WrapperAPI/Client_CSharp.i\n";
+			shellScript = "cd ../../../External/swigwin-3.0.2/\nif [ $CURRENT_ARCH == x86_64 ]\nthen\n_SWIG_ARCH=__LP64__\nelif [ $CURRENT_ARCH == i386 ]\nthen\n_SWIG_ARCH=_M_IX86\nfi\n\nSOURCE=../../Source\nDEST=../../GeneratedInterface/CSharpAPI/com/microsoft/holotoolkit/sharing\nmkdir -p $DEST\n./swig -Fmicrosoft -c++ -csharp -D$_SWIG_ARCH -D__APPLE__ -DTARGET_OS_IPHONE -ILib -ILib/csharp -namespace HoloToolkit.Sharing -outdir $DEST -o $SOURCE/Client/ClientWrapperAPI_CSharp.cpp -includeall $SOURCE/Client/WrapperAPI/Client_CSharp.i\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -2879,6 +2879,7 @@
 				3E7E711D1FA9D03C004B03C0 /* BoolElementImpl.cpp in Sources */,
 				3E7E711E1FA9D03C004B03C0 /* DoubleElementImpl.cpp in Sources */,
 				3E7E711F1FA9D03C004B03C0 /* InsertOperation.cpp in Sources */,
+				3E7E71351FA9D43B004B03C0 /* ClientWrapperAPI_CSharp.cpp in Sources */,
 				3E7E71201FA9D03C004B03C0 /* IntArrayAdapter.cpp in Sources */,
 				3E7E71211FA9D03C004B03C0 /* IntArrayElementImpl.cpp in Sources */,
 				3E7E71221FA9D03C004B03C0 /* LongElementImpl.cpp in Sources */,
@@ -2902,7 +2903,6 @@
 				3E7E71141FA9CF99004B03C0 /* VisualPairConnectorImpl.cpp in Sources */,
 				3E7E71151FA9CF99004B03C0 /* VisualPairReceiverImpl.cpp in Sources */,
 				3E7E71161FA9CF99004B03C0 /* DynamicLibrary.cpp in Sources */,
-				3E7E71171FA9CF99004B03C0 /* ClientWrapperAPI_Java.cpp in Sources */,
 				3E7E71181FA9CF99004B03C0 /* Settings.cpp in Sources */,
 				3E7E71191FA9CF99004B03C0 /* SideCarContextImpl.cpp in Sources */,
 			);
