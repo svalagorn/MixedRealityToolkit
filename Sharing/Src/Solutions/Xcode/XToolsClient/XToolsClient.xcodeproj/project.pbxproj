@@ -655,10 +655,6 @@
 		3E7E71511FAA6211004B03C0 /* FloatArrayListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7E714A1FAA6205004B03C0 /* FloatArrayListener.h */; };
 		3E7E71521FAA6211004B03C0 /* StringArrayElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7E714C1FAA6206004B03C0 /* StringArrayElement.h */; };
 		3E7E71531FAA6211004B03C0 /* StringArrayListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7E714D1FAA6206004B03C0 /* StringArrayListener.h */; };
-		3E7E71551FAA69E6004B03C0 /* RakNetTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F434CD51A3A6F9A00B7615D /* RakNetTypes.h */; };
-		3E7E71561FAA69E6004B03C0 /* RakPeer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F434CD81A3A6F9A00B7615D /* RakPeer.h */; };
-		3E7E71571FAA69F9004B03C0 /* RakAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F434CB61A3A6F9A00B7615D /* RakAssert.h */; };
-		3E7E71581FAA6A14004B03C0 /* RakNetDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F434CBE1A3A6F9A00B7615D /* RakNetDefines.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2563,17 +2559,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E7E71541FAA69CF004B03C0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3E7E71581FAA6A14004B03C0 /* RakNetDefines.h in Headers */,
-				3E7E71571FAA69F9004B03C0 /* RakAssert.h in Headers */,
-				3E7E71551FAA69E6004B03C0 /* RakNetTypes.h in Headers */,
-				3E7E71561FAA69E6004B03C0 /* RakPeer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -2622,7 +2607,6 @@
 				3E7E70FB1FA9CEDF004B03C0 /* Sources */,
 				3E7E70FC1FA9CEDF004B03C0 /* Frameworks */,
 				3E7E70FD1FA9CEDF004B03C0 /* CopyFiles */,
-				3E7E71541FAA69CF004B03C0 /* Headers */,
 			);
 			buildRules = (
 			);
